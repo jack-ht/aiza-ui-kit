@@ -1,6 +1,6 @@
 # Aiza NFT React UI Lib
 * The components allow to render NFT auctions, bids and other marketplace information.
-* `@htsoft/aiza-react-hooks` is peer dependency that help to fetch NFT data.
+* `@htsoft/reactjs-hooks` is peer dependency that help to fetch NFT data.
 <br/>  
 
 ## Evironment: 
