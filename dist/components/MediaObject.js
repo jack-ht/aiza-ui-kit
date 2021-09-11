@@ -12,11 +12,9 @@ const MediaObject = ({ contentURI, metadata, a11yIdPrefix, isFullPage = false, }
     const { getStyles, getString, renderers, style } = (0, useMediaContext_1.useMediaContext)();
     const request = {
         media: {
-            // from aiza content uri
             content: contentURI
                 ? {
                     uri: contentURI,
-                    // TODO(iain): Clean up for catalog.works
                     type: metadata.mimeType || ((_a = metadata.body) === null || _a === void 0 ? void 0 : _a.mimeType),
                 }
                 : undefined,

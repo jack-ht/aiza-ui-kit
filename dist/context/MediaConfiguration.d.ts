@@ -1,5 +1,5 @@
 import React from "react";
-import type { NetworkIDs } from "../constants/networks";
+import { NetworkIDs } from "@htsoft/reactjs-hooks";
 import type { Strings } from "../constants/strings";
 import type { RecursivePartial } from "../utils/RecursivePartial";
 import type { RendererConfig } from "../content-components/RendererConfig";

@@ -20,8 +20,8 @@ var __importStar = (this && this.__importStar) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.RendererConfigTypes = exports.MediaRenderers = exports.MediaObject = exports.NFTDataContext = exports.NFTDataProvider = exports.FullComponents = exports.NFTFullPage = exports.PreviewComponents = exports.NFTPreview = exports.AuctionHouseList = exports.MediaConfiguration = exports.Networks = void 0;
-const networks_1 = require("./constants/networks");
-Object.defineProperty(exports, "Networks", { enumerable: true, get: function () { return networks_1.Networks; } });
+const reactjs_hooks_1 = require("@htsoft/reactjs-hooks");
+Object.defineProperty(exports, "Networks", { enumerable: true, get: function () { return reactjs_hooks_1.Networks; } });
 const AuctionHouseList_1 = require("./auction-house/AuctionHouseList");
 Object.defineProperty(exports, "AuctionHouseList", { enumerable: true, get: function () { return AuctionHouseList_1.AuctionHouseList; } });
 const MediaConfiguration_1 = require("./context/MediaConfiguration");

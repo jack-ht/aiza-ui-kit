@@ -453,10 +453,10 @@
     "@ethersproject/bytes" "^5.4.0"
     "@ethersproject/logger" "^5.4.0"
 
-"@htsoft/reactjs-hooks@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@htsoft/reactjs-hooks/-/reactjs-hooks-1.0.2.tgz#6bd72643d0209ec552d4fe9e80612a99fc5107fa"
-  integrity sha512-ZDbz+wSdgQrBTWbW35L7WlLwKyocBsdOZ7gZYrc3/Klsj46Yvs4k10DXr/sDGL98Lt8z0qmRw+T14VCC34O5Ew==
+"@htsoft/reactjs-hooks@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@htsoft/reactjs-hooks/-/reactjs-hooks-1.0.4.tgz#e2a49cd60c5b401d2466e753b291d85a15614b39"
+  integrity sha512-d8XeUmSBeLyD/jPowcqJYD+zEOaVrsrENAXwYp5fKu5xqzPnytlh7XDp18oR2iE+IchdELAul8EDMNDWjMT1aA==
   dependencies:
     "@ethersproject/address" "^5.4.0"
     big.js "^6.1.0"

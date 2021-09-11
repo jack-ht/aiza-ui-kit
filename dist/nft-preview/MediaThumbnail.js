@@ -7,14 +7,13 @@ const AddressView_1 = require("../components/AddressView");
 const MediaObject_1 = require("../components/MediaObject");
 const useMediaContext_1 = require("../context/useMediaContext");
 const NFTDataContext_1 = require("../context/NFTDataContext");
-const getContentDataOptions_1 = require("../utils/getContentDataOptions");
-const MediaThumbnail = ({ getContentData = getContentDataOptions_1.defaultGetContentData, }) => {
+const MediaThumbnail = () => {
     const { nft: { data }, metadata: { metadata }, } = (0, react_1.useContext)(NFTDataContext_1.NFTDataContext);
     const { getStyles, getString } = (0, useMediaContext_1.useMediaContext)();
     const getContent = () => {
         if (metadata && data) {
             return {
-                media: (0, jsx_runtime_1.jsx)(MediaObject_1.MediaObject, Object.assign({}, getContentData(data, metadata)), void 0),
+                media: ((0, jsx_runtime_1.jsx)(MediaObject_1.MediaObject, { contentURI: data && "aizaNFT" in data ? data.aizaNFT.contentURI : undefined, metadata: metadata }, void 0)),
                 title: metadata.name,
             };
         }

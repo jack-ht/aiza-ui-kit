@@ -15,7 +15,7 @@ declare const FullComponents: {
         allowOffer?: boolean | undefined;
     }) => JSX.Element;
     ProofAuthenticity: () => JSX.Element;
-    MediaFull: ({ a11yIdPrefix, getContentData, }: import("../utils/getContentDataOptions").GetContentDataType & {
+    MediaFull: ({ a11yIdPrefix }: {
         a11yIdPrefix?: string | undefined;
     }) => JSX.Element;
 };

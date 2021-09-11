@@ -1,5 +1,5 @@
 /// <reference types="react" />
-import { NetworkIDs } from "../constants/networks";
+import { NetworkIDs } from "@htsoft/reactjs-hooks";
 import { Strings } from "../constants/strings";
 import { Style } from "../constants/style";
 import type { RendererConfig } from "../content-components/RendererConfig";

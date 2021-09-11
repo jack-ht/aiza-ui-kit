@@ -1,4 +1,4 @@
-import { Networks } from "./constants/networks";
+import { Networks } from "@htsoft/reactjs-hooks";
 import { AuctionHouseList } from "./auction-house/AuctionHouseList";
 import { MediaConfiguration } from "./context/MediaConfiguration";
 import * as MediaRenderers from "./content-components";

@@ -1449,7 +1449,7 @@ export declare function useMediaContext(): {
             }, { muted }: any) => string;
         };
     };
-    networkId: import("../constants/networks").NetworkIDs;
+    networkId: import("@htsoft/reactjs-hooks/dist/constants/networks").NetworkIDs;
     strings: {
         COLLECTED: string;
         CREATED: string;
